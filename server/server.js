@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.send(process.env.APP_NAME);
 });
 app.get("/test", (req, res) => {
-  res.send("test");
+  res.send("testza");
 });
 
 app.listen(3000);
