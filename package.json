@@ -1,14 +1,22 @@
 {
-  "name": "server",
+  "name": "nodejs-example",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aunmew/nodejs-example.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aunmew/nodejs-example/issues"
+  },
+  "homepage": "https://github.com/Aunmew/nodejs-example#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2"
